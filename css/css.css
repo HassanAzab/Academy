@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+html{
+ scroll-behavior: smooth;
+}
+.navbar-brand {
+    background-color: #005B8E;
+    padding: 20px;
+    font-weight: bolder;  
+}
+.nav-link{
+padding: 15px;
+font-weight: bolder; 
+}
+.nav-link:hover{
+    color: white !important;   
+}
+a:hover {
+    text-decoration: none;
+}
+.pad-0{
+    padding: 0px !important;
+}
+.dropdown-item:hover{
+    background-color:#343A40;
+    color: white;
+    border-right: 6px solid grey; 
+}
+.dropdown-item{
+    padding: 10px;
+}
+.dropdown-item:hover{
+   background-color: #005B8E;  
+}
+.nav-item {
+    padding: 10px; 
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: #005B8E;
+    color:white !important; 
+}
+.jumbotron {
+    background-image: url(../img/back3.jpg);
+    background-size: cover;
+  color: white;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+@media(max-width:700px){
+    .jumbotron{
+        height: 500px;
+    } 
+}
+.input-group-text,.color {
+     background-color: #005B8E;
+    color: white;   
+}
+.color{
+   border: 1px solid silver;
+}
+.pad-30{
+    padding: 30px;   
+}
+.h1{
+  color: #005B8E;  
+}
+.section-two,.section-one,.section-three {
+color:#005B8E; 
+    padding: 15px;   
+}
+.section-two:hover,.section-one:hover,.section-three:hover {
+background-color: #005B8E;
+    color:white; 
+}
+.page-item{
+color: #005B8E !important;
+}
+.card {
+    box-shadow: 10px 10px 10px black;
+    widows: 22rem;
+    margin: 10px;
+    height: 450px;   
+}
+.btn-primary{
+    background-color: #005B8E ;
+    border: 2px solid #005B8E;
+}
+.Graphic-section,markiting-section {
+    display: none;
+}
+.card img {
+    height: 200px ;
+}
+.card img:hover{
+    filter: grayscale(100%);
+}
+
+.why-Academy-Net p,h2{
+    padding: 5px;
+}
+.back{
+ background-color: #005B8E;
+    color: white;
+    width: 95%;
+}
+.back:hover{
+    background-color: white;
+    color: #005B8E;  
+}
+.pad-20{
+    padding: 20px;
+}
+.font{
+    font-size: 32px;
+}
+.footer {
+     background-color: #DDD;
+}
+.footer p {
+    padding: 5px;
+}
+.footer p:hover{
+    background-color: #262529 !important;
+    color: white;
+}
+.btn-primary:hover{
+    transform: scale(0.9,0.9) !important;
+    background-color: #005B8E;
+}
